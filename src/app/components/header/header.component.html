@@ -1,12 +1,17 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+<nav class="navbar fixed-top navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" routerLink="">VPW</a>
+    <a class="navbar-brand" routerLink="">
+      <img src="/assets/img/vpw-icon-solo.png" alt="VPW logo" class="navbar-brand-img">
+    </a>
 
     <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
       &#9776;
     </button>
 
     <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+
+      <span class="flex-grow-1"></span>
+
       <ul class="navbar-nav">
 
         <li class="nav-item">
@@ -15,6 +20,10 @@
 
         <li class="nav-item">
           <a class="nav-link" routerLink="" (click)="isMenuCollapsed = true">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="" (click)="isMenuCollapsed = true">Tables</a>
         </li>
 
       </ul>

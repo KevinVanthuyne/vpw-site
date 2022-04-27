@@ -1,0 +1,9 @@
+@use '/src/styles/variables' as var;
+
+.navbar-brand-img {
+  height: 50px;
+}
+
+.nav-link {
+  color: var.$vpw-beige;
+}
