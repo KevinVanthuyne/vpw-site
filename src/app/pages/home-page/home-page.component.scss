@@ -1,0 +1,10 @@
+@use '/src/styles/variables' as var;
+
+.landing-section {
+  background-image: url('/assets/img/lotr-bw.jpg') ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var.$vpw-dark-blue-opaque;
+  background-blend-mode: soft-light;
+}
