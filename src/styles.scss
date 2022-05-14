@@ -7,3 +7,27 @@ body {
   color: var.$vpw-beige;
   font-family: 'Karla', sans-serif;
 }
+
+.big-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.display-text {
+  font-size: 1.3em;
+}
+
+.display-button {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid var.$vpw-red-opaque;
+  color: var.$vpw-red-opaque;
+  padding: 2em;
+  text-decoration: none;
+
+  &:hover {
+    background-color: var.$vpw-red-opaque;
+  }
+}
