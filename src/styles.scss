@@ -22,12 +22,31 @@ body {
 .display-button {
   display: inline-block;
   text-align: center;
-  border: 1px solid var.$vpw-red-opaque;
-  color: var.$vpw-red-opaque;
+  border: 1px solid var.$vpw-beige-opaque;
+  color: var.$vpw-beige;
   padding: 2em;
   text-decoration: none;
 
   &:hover {
     background-color: var.$vpw-red-opaque;
+    color: var.$vpw-dark-blue;
+    border: 1px solid var.$vpw-dark-blue;
   }
+}
+
+.red-text {
+  color: var.$vpw-red-opaque;
+}
+
+.beige-text {
+  color: var.$vpw-beige-opaque;
+}
+
+/* Utils */
+.vh-120 {
+  height: 120vh;
+}
+
+.mt-10 {
+  margin-top: 10rem;
 }

@@ -1,6 +1,10 @@
 @use '/src/styles/variables' as var;
 
-.landing-section {
+.landing-section-background-overlay {
+  background: linear-gradient(transparent 80%, var.$vpw-dark-blue);
+}
+
+.landing-section-background {
   background-image: url('/assets/img/lotr-bw.jpg');
   background-size: cover;
   background-position: center;
@@ -8,4 +12,5 @@
   background-color: var.$vpw-dark-blue-opaque;
   background-blend-mode: soft-light;
   //box-shadow: 0 0 0 12px var.$vpw-red-opaque inset;
+  z-index: -1;
 }
