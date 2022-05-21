@@ -11,6 +11,7 @@ import {MissionPageComponent} from './pages/mission-page/mission-page.component'
 import { LayoutComponent } from './components/layout/layout.component';
 import { MembersPageComponent } from './pages/members-page/members-page.component';
 import { CircleContainerComponent } from './components/circle-container/circle-container.component';
+import { WorkPageComponent } from './pages/work-page/work-page.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CircleContainerComponent } from './components/circle-container/circle-c
     MissionPageComponent,
     LayoutComponent,
     MembersPageComponent,
-    CircleContainerComponent
+    CircleContainerComponent,
+    WorkPageComponent
   ],
   imports: [
     BrowserModule,
