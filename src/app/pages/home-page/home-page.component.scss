@@ -26,3 +26,21 @@
   width: 100%;
   height: auto;
 }
+
+.work-img-1, .work-img-2, .work-img-3 {
+  position: relative;
+  width: 300px;
+  border: 5px solid var.$vpw-darker-blue;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.work-img-2 {
+  top: -500px;
+  left: 2rem;
+}
+
+.work-img-3 {
+  top: -1000px;
+  left: 4rem;
+
+}
