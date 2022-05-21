@@ -10,6 +10,7 @@ import {FooterComponent} from './components/footer/footer.component';
 import {MissionPageComponent} from './pages/mission-page/mission-page.component';
 import { LayoutComponent } from './components/layout/layout.component';
 import { MembersPageComponent } from './pages/members-page/members-page.component';
+import { CircleContainerComponent } from './components/circle-container/circle-container.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MembersPageComponent } from './pages/members-page/members-page.componen
     FooterComponent,
     MissionPageComponent,
     LayoutComponent,
-    MembersPageComponent
+    MembersPageComponent,
+    CircleContainerComponent
   ],
   imports: [
     BrowserModule,

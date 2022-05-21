@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-members-page',
   templateUrl: './members-page.component.html',
   styleUrls: ['./members-page.component.scss']
 })
-export class MembersPageComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class MembersPageComponent {
+  members = ['Iaakki', 'Benji', 'Sixtoe', 'Apophis']
 }

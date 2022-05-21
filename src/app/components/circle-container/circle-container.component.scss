@@ -1,0 +1,15 @@
+@use 'src/styles/variables' as var;
+
+.bubble {
+  background-color: var.$vpw-darker-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.square:before {
+  content: "";
+  float: left;
+  padding-top: 100%; /* initial ratio of 1:1*/
+}
