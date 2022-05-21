@@ -15,10 +15,6 @@ const routes: Routes = [
     component: MissionPageComponent
   },
   {
-    path: 'members',
-    component: MembersPageComponent
-  },
-  {
     path: 'work',
     component: WorkPageComponent
   },
