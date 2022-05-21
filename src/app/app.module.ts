@@ -9,6 +9,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FooterComponent} from './components/footer/footer.component';
 import {MissionPageComponent} from './pages/mission-page/mission-page.component';
 import { LayoutComponent } from './components/layout/layout.component';
+import { MembersPageComponent } from './pages/members-page/members-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LayoutComponent } from './components/layout/layout.component';
     HomePageComponent,
     FooterComponent,
     MissionPageComponent,
-    LayoutComponent
+    LayoutComponent,
+    MembersPageComponent
   ],
   imports: [
     BrowserModule,
