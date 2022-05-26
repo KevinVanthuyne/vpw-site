@@ -27,20 +27,28 @@
   height: auto;
 }
 
-.work-img-1, .work-img-2, .work-img-3 {
+.carousel-3d {
   position: relative;
-  width: 300px;
+}
+
+$carousel-item-width: 300px;
+$carousel-item-spacing-hor: 30px;
+$carousel-item-spacing-vert: 15px;
+$item-amount: 3;
+
+.carousel-3d-item {
+  position: absolute;
+  width: $carousel-item-width;
+  height: $carousel-item-width * 1.78;
+  transform: rotateX(20deg) rotateY(60deg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   border: 5px solid var.$vpw-darker-blue;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-}
 
-.work-img-2 {
-  top: -500px;
-  left: 2rem;
-}
-
-.work-img-3 {
-  top: -1000px;
-  left: 4rem;
-
+  @for $i from 1 through $item-amount {
+    &:nth-child(#{$i}) {
+      z-index: -$i;
+      left: ($i - 1) * $carousel-item-spacing-hor;
+      top: ($item-amount - $i) * $carousel-item-spacing-vert;
+    }
+  }
 }
